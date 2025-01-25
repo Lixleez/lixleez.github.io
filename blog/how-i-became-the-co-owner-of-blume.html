@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lena Zuri | How I Became The Co-Owner Of Blume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+            color: #ff3d57;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #1f1919;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #E0E0E0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s, transform 0.3s;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #ff3d57;
+            color: #000;
+        }
+
+        .banner {
+            width: 100%;
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .banner h2 {
+            font-size: 48px;
+            margin: 0 0 10px;
+        }
+
+        .banner p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 15px;
+            width: 100%;
+            background-color: #1f1919;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/fundme.html">Support Me</a>
+            <a href="mailto:contactmelixleez@gmail.com">Contact Me</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2>How I Became The Co-Owner Of Blume</h2>
+        <p>One day, I was snooping around a page called CUG, now commonly known as Nooble. That's when I found the contact info for the owner, and we came up with an idea to start Blume. At that time, I started dating thedevmarcus (a dev of Nooble), and together we created a few projects, including the Gen Z Translator.</p>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; <span id="year"></span> Lena Zuri</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
